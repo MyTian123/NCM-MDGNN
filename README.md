@@ -21,7 +21,7 @@ MDGNN_demo/
 ├── requirements.txt                  # Python dependencies
 ├── README.md                         # Chinese version
 ├── README_EN.md                      # This file
-├── mdgnn_state_dict_frozenBN.pt      # Model weights (with frozen BN statistics)
+├── mdgnn_state_dict_frozenBN.pt      # Model weights
 ├── norm_params.npz                   # Normalization parameters (mean/std)
 ├── demo_features.npy                 # 16 demo sample inputs (20-dim)
 ├── demo_labels.npy                   # 16 demo sample labels (capacity, retention)
@@ -135,7 +135,7 @@ MDGNN_demo/
 ├── utils.py                          # 稀疏矩阵工具
 ├── requirements.txt                  # Python 依赖
 ├── README.md                         # 本文件
-├── mdgnn_state_dict_frozenBN.pt      # 模型权重（固化BN统计量）
+├── mdgnn_state_dict_frozenBN.pt      # 模型权重
 ├── norm_params.npz                   # 归一化参数 (均值/标准差)
 ├── demo_features.npy                 # 16 个演示样本输入 (20维)
 ├── demo_labels.npy                   # 16 个演示样本标签 (容量, 保持率)
