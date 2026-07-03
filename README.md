@@ -6,7 +6,7 @@
 ## Overview
 We present Mutli-Dimensional Graph Differential Neural Network (MDGDNN).The MDGDNN model consists of data preprocessing, icos multi-level spherical graph construction and differential graph neural operators. The design patterns and data flow changes of each link are shown in Figure 1. Specifically, the data preprocessing process involves the fusion of small sample data, the multi-ML ensemble algorithms, and the Kalman filter denoising algorithm to achieve precise sample enhancement and data preprocessing. Secondly, a vectorization method is employed to construct a multi-stage subdivided spherical structure from the 0th level icosphere spherical surface. Meanwhile, we construct a three-dimensional spherical structure network with different level in a nested structure. The graph relationship matrix (including the vertex matrix and edge matrix) is recorded based on the relationship between vertices and edges. The CSR sparse storage structure is used to achieve efficient and lightweight construction of large-scale graph structures. For the core part of the model, we designed a graph convolution kernel (GCN kernel) based on multi-order differential graph operator (GDO), and integrated it with graph convolution networks and residual networks to form Graph Differential Operator Unit (GDO Unit). Furthermore, we have designed a Multi-scale Graph Aggregation Algorithm, called GDO-Unet, which continuously expands the influence range of the operator in the space through a graph U-net structure, in order to simultaneously model both local and global physical and chemical spatial patterns.
 
-> This repository provides the trained model weights (with data augmentation), 16 best-prediction demo cases, and a one-click inference script.
+> This repository provides the trained model weights (with data augmentation), 16 demo cases, and a one-click inference script.
 
 ---
 
@@ -105,7 +105,7 @@ The model accepts an `(N, 20)` float matrix, where the 20-dimensional feature en
 
 基于 **NCM-MDGNN** 的锂离子电池正极材料掺杂改性的容量与保持率预测模型。
 
-> 本仓库提供经数据增强训练后的模型权重、16 个最佳预测案例的演示数据，以及一键推理脚本。
+> 本仓库提供经数据增强训练后的模型权重、16 个演示数据，以及一键推理脚本。
 
 ---
 
