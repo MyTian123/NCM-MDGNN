@@ -74,7 +74,6 @@ pip install -r requirements.txt
 ## One-Click Execution
 
 ```bash
-cd MDGNN_demo
 python run_test.py
 ```
 
@@ -189,7 +188,6 @@ pip install -r requirements.txt
 ## 一键执行
 
 ```bash
-cd MDGNN_demo
 python run_test.py
 ```
 
