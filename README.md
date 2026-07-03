@@ -63,11 +63,7 @@ pip install torch torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2
 
 ### 3. Install Remaining Dependencies
 
-```bash
-pip install numpy
-```
-
-Or install all dependencies at once:
+Install all dependencies at once:
 
 ```bash
 pip install -r requirements.txt
@@ -182,11 +178,7 @@ pip install torch torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2
 
 ### 3. 安装其余依赖
 
-```bash
-pip install numpy
-```
-
-或一键安装：
+一键安装：
 
 ```bash
 pip install -r requirements.txt
